@@ -1,5 +1,5 @@
 {
-  "name": "angular-match-height",
+  "name": "angular-matchheight",
   "version": "0.1.0",
   "description": "match html elements height using javascript angular directive",
   "main": "index.js",
