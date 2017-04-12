@@ -1,6 +1,8 @@
 (function() {
-    angular.module("dp-ui",[])
-    .directive("dpMatchHeight", function() {
+    var dpmod = undefined;
+    try { dpmod=angular.module("dp-ui"); } catch(err){dpmod=angular.module("dp-ui",[]);}
+
+    dpmod.directive("dpMatchHeight", function() {
 
         heightGroupController.$inject = ['$scope', '$timeout', '$window', '$interval','$log'];
 
