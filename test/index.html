@@ -1,0 +1,23 @@
+<html ng-app="app">
+
+<head>
+    <title> AngularJS promise Utils test </title>
+    <link rel="stylesheet" href="/vendor/styles/bootstrap.min.css"></link>
+    <script type="text/javascript" src="/vendor/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/vendor/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/vendor/scripts/angular.min.js"></script>
+    <script type="text/javascript" src="/vendor/scripts/angular-match-height.js"></script>
+    <script type="text/javascript" src="/app/myApp.js"></script>
+</head>
+
+<body ng-controller="myController">
+    <div class="container-fluid row">
+        <div class="col-lg-12">
+            <div dp-match-height="vaasu" style="display:inline-block;width:40px;border:1px solid red">40px div</div>
+            <div dp-match-height="vaasu" style="display:inline-block;width:40px;border:1px solid red">
+              40px div with lot of contents so that the height is increased
+            </div>
+        </div>
+</body>
+
+</html>

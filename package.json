@@ -1,0 +1,29 @@
+{
+  "name": "angular-match-height",
+  "version": "0.1.0",
+  "description": "match html elements height using javascript angular directive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vasudevan-palani/angular-promise-router.git"
+  },
+  "keywords": [
+    "match",
+    "height",
+    "group",
+    "angular"
+  ],
+  "author": "Vasudevan PALANI",
+  "license": "MIT",
+  "dependencies": {
+    "angular":"^1.x.x"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}

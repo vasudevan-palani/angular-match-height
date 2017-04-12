@@ -1,0 +1,30 @@
+{
+  "name": "angular-promise-router",
+  "description": "Angular router based on promises",
+  "main": "angular-promise-router.js",
+  "authors": [
+    "Vasudevan PALANI"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Promise",
+    "promise-utils",
+    "array",
+    "list",
+    "batch"
+  ],
+  "homepage": "https://github.com/vasudevan-palani/promise-router",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.x",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
